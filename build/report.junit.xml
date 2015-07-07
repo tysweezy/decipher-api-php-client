@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="League Test Suite" tests="2" assertions="1" failures="0" errors="0" time="0.001528">
+    <testsuite name="Decipher\Api\Test\ExampleTest" file="/home/tysweezy/projects/decipher-api-php-client/tests/ExampleTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.001447">
+      <testcase name="testTrueIsTrue" class="Decipher\Api\Test\ExampleTest" file="/home/tysweezy/projects/decipher-api-php-client/tests/ExampleTest.php" line="10" assertions="1" time="0.001447"/>
+    </testsuite>
+    <testsuite name="Decipher\Api\Test\HttpStatusTest" file="/home/tysweezy/projects/decipher-api-php-client/tests/HttpStatusTest.php" tests="1" assertions="0" failures="0" errors="0" time="0.000081">
+      <testcase name="testIfUrlIsOkay" class="Decipher\Api\Test\HttpStatusTest" file="/home/tysweezy/projects/decipher-api-php-client/tests/HttpStatusTest.php" line="7" assertions="0" time="0.000081"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,4 @@
+TAP version 13
+ok 1 - Decipher\Api\Test\ExampleTest::testTrueIsTrue
+ok 2 - Decipher\Api\Test\HttpStatusTest::testIfUrlIsOkay
+1..2
