@@ -1,6 +1,6 @@
 # Decipher REST API PHP Client
 
-[![Build Status](https://travis-ci.org/tysweezy/decipher-api-php-client.svg?branch=dev)](https://travis-ci.org/tysweezy/decipher-api-php-client)
+[![Build Status](https://travis-ci.org/tysweezy/decipher-api-php-client.svg?branch=master)](https://travis-ci.org/tysweezy/decipher-api-php-client)
 
 A PHP client library for the Decipher REST API Client.
 
