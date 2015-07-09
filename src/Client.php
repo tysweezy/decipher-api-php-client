@@ -75,4 +75,12 @@ class Client{
 		// @todo: add in necessary subclasses for instantiation.
 	}
 
+	/**
+	 * @param $value
+	*/
+	public function setKey($value)
+	{
+		return $this->key = $value;
+	}
+
 }
