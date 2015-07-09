@@ -2,9 +2,6 @@
 
 namespace Decipher\Api;
 
-use GuzzleHttp\Client;
-
-
 /**
  * Survey class file
  * 
@@ -33,8 +30,6 @@ class Survey
     {
         //$this->client = $client;
     }
-
-    
 
     /**
      * Friendly welcome
