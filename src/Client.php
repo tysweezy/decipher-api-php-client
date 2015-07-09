@@ -80,7 +80,7 @@ class Client{
 	*/
 	public function setKey($value)
 	{
-		return $this->key = $value;
+	  return $this->key = $value;
 	}
 
 }
