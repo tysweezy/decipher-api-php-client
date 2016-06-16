@@ -11,3 +11,10 @@ __construct ($host = 'v2.decipherinc.com', $scheme = 'https', $email)
     - handles token
     - handles instasiation of other objects
     - particular endpoints 
+
+## For Those Contributing: 
+
+Here is the documentation that you should follow: 
+[http://v2.decipherinc.com/s/local/beacon.html][1]
+
+[1]: http://v2.decipherinc.com/s/local/beacon.html

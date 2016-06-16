@@ -7,6 +7,8 @@ namespace Decipher\Api;
  * 
  * PHP version 5.3
  * 
+ * NOTE: THIS CLASS WILL (MOST LIKELY) NOT BE USED.
+ * 
  * @category Client
  * @package  DecipherApiPhpClient
  * @author   Tyler Souza <tsouza.sf@gmail.com>
@@ -15,7 +17,7 @@ namespace Decipher\Api;
  * @link     https://github.com/tysweezy/decipher-api-php-client/
  */ 
 
-class Client{
+class Client {
 
 	/**
 	 * @var string
@@ -73,6 +75,17 @@ class Client{
 		// if url -- take to endpoint. else throw exception.
 
 		// @todo: add in necessary subclasses for instantiation.
+	}
+
+	/**
+	 * get endpoint 
+	 * 
+	 *  
+	 */
+
+	public function endpoint($path)
+	{
+		// check if endpoint returns anything
 	}
 
 	/**

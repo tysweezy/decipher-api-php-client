@@ -18,6 +18,13 @@ class Survey
 {
 
     /**
+     * Api key. Set to public for now. So it can be accessed
+     * outside this class.
+     * @var $key
+     */
+    public $key;
+
+    /**
      * Create a new Decipher Client instance
      * 
      * @param string $client 
@@ -25,11 +32,20 @@ class Survey
      * Takes client param
      * 
      * @todo take in another param. $client collides with guzzle
+     * @todo integrate x-apikey header. 
      */
-    public function __construct() 
+    public function __construct($key) 
     {
-        //$this->client = $client;
+        $this->key = $key;
     }
+
+
+
+    protected function curl()
+    {
+        // all the curl stuff
+
+    } 
 
     /**
      * Friendly welcome
@@ -38,7 +54,7 @@ class Survey
      *
      * @return string Returns the phrase passed in 
      */
-    public function echoPhrase($phrase)
+   /* public function echoPhrase($phrase)
     {
         return $phrase;
     }
@@ -53,6 +69,6 @@ class Survey
         $response = $client->get('Decipher');
 
         print_r($response);
-    }
+    }*/
 
 }

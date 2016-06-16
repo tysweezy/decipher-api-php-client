@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Decipher API Suite" tests="2" assertions="1" failures="0" errors="0" time="0.000685">
-    <testsuite name="Decipher\Api\Test\ExampleTest" file="/home/tysweezy/projects/decipher-api-php-client/tests/ExampleTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.000620">
-      <testcase name="testTrueIsTrue" class="Decipher\Api\Test\ExampleTest" file="/home/tysweezy/projects/decipher-api-php-client/tests/ExampleTest.php" line="10" assertions="1" time="0.000620"/>
+  <testsuite name="Decipher API Suite" tests="2" assertions="1" failures="0" errors="0" time="0.000400">
+    <testsuite name="Decipher\Api\Test\ExampleTest" file="/home/tysweezy/decipher-api-php-client/tests/ExampleTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.000310">
+      <testcase name="testTrueIsTrue" class="Decipher\Api\Test\ExampleTest" file="/home/tysweezy/decipher-api-php-client/tests/ExampleTest.php" line="10" assertions="1" time="0.000310"/>
     </testsuite>
-    <testsuite name="Decipher\Api\Test\HttpStatusTest" file="/home/tysweezy/projects/decipher-api-php-client/tests/HttpStatusTest.php" tests="1" assertions="0" failures="0" errors="0" time="0.000065">
-      <testcase name="testIfUrlIsOkay" class="Decipher\Api\Test\HttpStatusTest" file="/home/tysweezy/projects/decipher-api-php-client/tests/HttpStatusTest.php" line="7" assertions="0" time="0.000065"/>
+    <testsuite name="Decipher\Api\Test\HttpStatusTest" file="/home/tysweezy/decipher-api-php-client/tests/HttpStatusTest.php" tests="1" assertions="0" failures="0" errors="0" time="0.000090">
+      <testcase name="testIfUrlIsOkay" class="Decipher\Api\Test\HttpStatusTest" file="/home/tysweezy/decipher-api-php-client/tests/HttpStatusTest.php" line="7" assertions="0" time="0.000090"/>
     </testsuite>
   </testsuite>
 </testsuites>

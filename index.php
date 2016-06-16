@@ -6,8 +6,21 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 use Decipher\Api\Survey;
 
-$s = new Survey();
+/* $client = new Client([
+   'url'     => 'https://v2.decipherinc.com/api',  
+   'token'   => ''                                 
+]);
 
-echo $s->echoPhrase("hello there");
+$client->get(); 
+ 
+$client->post();*/
 
-echo $s->getHttp();
+// implementation scratch
+
+$survey = new Survey([
+  'url'     => 'https://v2.decipherinc.com/api',
+  'api_key' => 'fewatji4ur8u4qjfisafu09dsauf'// sample key
+]);
+
+// sample method call 
+$survey->data()->downloadData();
